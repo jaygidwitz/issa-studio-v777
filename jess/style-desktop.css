@@ -1,0 +1,952 @@
+/* ==|== primary styles =====================================================
+   Author: Russ Maschmeyer & Jessica Hische
+   ========================================================================== */
+
+#frame {
+	position: relative;
+	border: 2px solid red;
+	width: 100%;
+	height: 500px;
+	}
+	
+#frameborder {
+	position: fixed;
+	width: 100%;
+	}
+
+#container {
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+	position: relative;
+	}
+	
+#navigation .up.button:hover {
+	padding-top: 25px;
+	}
+	
+#navigation .down.button:hover {
+	padding-bottom: 25px;
+	}
+	
+a.nav-link {
+	display: block;
+	font-size: .825em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-indent: -9999px;
+	}
+	
+.panel, .text {
+	background: #000;
+	overflow:hidden;
+	position: relative;
+	}
+	
+.text {
+	background: url('http://c15117992.r92.cf2.rackcdn.com/lines.png') repeat-y center;
+	}
+	
+.story {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	width: 488px;
+	margin: 0 auto;
+	padding: 99px 12px;
+	background-color: #000;
+	background-image: url('http://c15117992.r92.cf2.rackcdn.com/story-top.png'), url('http://c15117992.r92.cf2.rackcdn.com/story-bottom.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position: top center, bottom center;
+	}
+
+.story-letterinvite {
+	width: 688px;
+	padding: 46px 12px;
+	}
+
+.story-letterinvite p{
+	color:#000;
+	margin:0px;
+	}
+
+.story-passinvite {
+	width: 488px;
+	padding: 46px 12px;
+	}
+
+.letter-content{
+	padding: 30px 40px;
+	}
+	
+.story p {
+	padding: 25px 34px;
+	margin: 0;
+	border-right: 1px solid #bc9d51;
+	border-left: 1px solid #bc9d51;
+	}
+	
+.caption {
+	font-size: 19px;
+	font-weight: 400;
+	width: 500px;
+	position: absolute;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: default;
+	z-index: 997;
+	}
+
+div.artist-bio{
+	width:290px;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+}
+
+div.artist-bio img{
+	margin-left:-20%;
+	margin-top:-20%;
+}
+
+.artist h1{
+	margin-left:320px;
+	font-family: 'Sentinel A', 'Sentinel B', Georgia;
+}
+
+.artist p{
+	font-family: 'Sentinel A', 'Sentinel B', Georgia;
+	margin-left:320px;
+}
+
+.dark-bg {
+	background: rgba(0, 0, 0, 1);
+	}
+	
+.light-bg {
+	color: rgba(0, 0, 0, .5);
+	}
+	
+.shadow {
+	text-shadow: 0 1px 1px black, 0 0 20px black;
+	}
+	
+.center {
+	text-align: center;
+	}
+	
+.invisible {
+	display: none;
+	}
+
+#matte {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 998;
+	}
+	
+.frame {
+	background-image: url('http://c15117992.r92.cf2.rackcdn.com/frame-top.png'), url('http://c15117992.r92.cf2.rackcdn.com/frame-bottom.png'), url('http://c15117992.r92.cf2.rackcdn.com/frame-rep.png');
+	background-position: center top, center bottom, center;
+	background-repeat: no-repeat, no-repeat, repeat-y;
+	width: 100%;
+	position: absolute;
+	z-index: 120;
+	}
+	
+a.credit {
+	font-size: 12px;
+	font-weight:700;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	width: 940px;
+	display: block;
+	padding: 10px 30px;
+	text-align: right;
+	z-index: 999;
+	position: absolute;
+	}
+
+.timeline {
+	width: 100%;
+	position: absolute;
+	}
+	
+.timeline.one {
+	top: 5%;
+	}
+	
+.timeline.two {
+	bottom:25%;
+	}
+	
+.timeline li {
+	width:300px; /*jess*/
+	}
+	
+.timeline li.jess {
+	text-align: right;
+	margin-right: 565px;
+	
+	position:absolute; /*jess*/
+	top:0; /*jess*/
+	margin-left: 136px; /*jess*/
+	}
+	
+.timeline li.russ {
+	margin-left: 484px;
+	position:absolute; /*jess*/
+	top:0; /*jess*/
+	}
+	
+.timeline li.jess:before{
+	content: "•";
+	position: absolute;
+	top: -8px;
+	right: -24px;
+	font-size: 20px;
+}
+
+.timeline li.russ:before{
+	content: "•";
+	position: absolute;
+	top: -8px;
+	left: -24px;
+	font-size: 20px;
+}
+
+
+/* =============================================================================
+   Panels
+   ========================================================================== */
+
+#title {																/* 1 Jessica Hische */
+	background: none;
+	}
+	
+	#title .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/1b.png') center no-repeat;
+		width: 100%;
+		position: absolute;
+		z-index: 100;
+		}
+
+#intro {																/* 2 text */
+	
+	}
+		
+#intro-her {															/* 3 Chris Neal */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/3a.jpg') 50% 0 no-repeat fixed;
+	background-color: black;
+	}
+	
+	#intro-her .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/3b.png') 50% 0 repeat-x fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 100;
+		}
+	
+	#intro-her .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/3c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+	
+	#intro-her .d {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/3d.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+		
+	#intro-her .caption {
+		width: 340px;
+		margin: 358px 0 0 555px;
+		}
+		
+#about-her {															/* 4 text */
+	
+	}
+	
+#intro-him {															/* 5 Frank Stockton */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/5a.jpg') 50% 0 no-repeat fixed;
+	background-color: black;
+	}
+
+	#intro-him .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/5b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#intro-him .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/5c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+	
+	#intro-him .caption {
+		margin: 400px 0 0 60px;
+		width: 240px;
+		}
+		
+#about-him {															/* 6 text */
+	
+	}
+	
+#discovery {															/* 7 Nick Felton */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/7a.png') 50% 0 no-repeat fixed;
+	background-color: #bc9d51;
+	}
+	
+	#discovery .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/7b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+#first-meet {															/* 8 text */
+	
+	}
+	
+#star-crossed {															/* 9 Sam Weber */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/9a.jpg') 50% 0 no-repeat fixed;
+	background-color: black;
+	}
+	
+	#star-crossed .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/9b.png') 50% 0 repeat-y fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+	
+	#star-crossed .caption {
+		margin: 248px 0 0 30px;
+		width: 270px;
+		}
+		
+#the-road {																/* 10 text */
+	
+	}
+	
+#waiting {																/* 11 Josh Cochran */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/11a.jpg') center no-repeat;
+	background-color: black;
+	}
+	
+	#waiting .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/11b.png') 50% 0 no-repeat;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		transition: background-position-x 2s;
+		-moz-transition: background-position 2s; /* Firefox 4 */
+		-webkit-transition: background-position-x 2s; /* Safari and Chrome */
+		-o-transition: background-position-x 2s; /* Opera */
+		}
+
+	#waiting .caption {
+		width: 800px;
+		margin: 300px 0px 0 230px;
+		z-index: 100;
+		}
+		
+	#waiting .wait {
+		padding-left:148px;
+		opacity: 0;
+		transition: opacity 1s;
+		-moz-transition: opacity 1s; /* Firefox 4 */
+		-webkit-transition: opacity 1s; /* Safari and Chrome */
+		-o-transition: opacity 1s; /* Opera */
+		}
+	
+	#waiting a.credit {
+		color: black;
+		}
+		
+#first-date {															/* 12 text */
+	
+	}
+	
+#closed {																/* 13 Gilbert Ford */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/13a.jpg') center bottom no-repeat;
+	background-color: black;
+	}
+
+	#closed .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/13b.png') 50% 0 repeat-y fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#closed .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/13c.png') 50% 0 repeat-y fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+		
+	#closed .caption {
+		width: 1000px;
+		margin: 50px 0 0;
+		}
+		
+#more-dates {															/* 14 text */
+	
+	}
+	
+#falling-in-love {														/* 15 Jason Kernevich */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/15a.jpg') 50% 0 no-repeat fixed;
+	background-color: #bc9d51;
+	}
+	
+	#falling-in-love .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/15b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#falling-in-love .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/15c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+	
+	#falling-in-love .d {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/15d.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 103;
+		}
+
+	#falling-in-love .caption {
+		width: 1000px;
+		margin: 50px 0 0;
+		}
+
+#new-adventures {														/* 16 text */
+	
+	}
+
+#high-seas {															/* 17 Chris Buzelli */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/17a.jpg') 50% 0 no-repeat fixed;
+	background-color: #dfd6b9;
+	}
+		
+#changes {																/* 18 text */
+	
+	}
+		
+#new-lives {															/* 19 Grady McFerrin */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/19a.jpg') 50% 0 no-repeat fixed;
+	background-color: white;
+	}
+	
+	#new-lives .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/19b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#new-lives .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/19c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+		
+	#new-lives a.credit {
+		color: black;
+		}
+	
+#moving-in {															/* 20 text */
+	
+	}
+	
+#big-move {																/* 21 Alex Eben Meyer */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/21a.png') 50% 0 no-repeat fixed;
+	background-color: #696351;
+	}
+
+	#big-move .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/21b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#big-move .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/21c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+	
+	#big-move .d {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/21d.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 103;
+		}
+		
+	#big-move .e {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/21e.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 104;
+		}
+		
+	#big-move .f {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/21f.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 105;
+		}
+
+#epiphany {																/* 22 text */
+	
+	}
+
+#jessica {																/* 23 Neil Swaab */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/23a.jpg') 50% 0 no-repeat fixed;
+	background-color: #f8f0de;
+	}
+	
+	#jessica .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/23b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+
+	#jessica .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/23c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+		
+	#jessica .d {
+		/* vignette */
+		background: url('http://c15117992.r92.cf2.rackcdn.com/23d.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 103;
+		opacity: 0;
+		transition: opacity 1s;
+		-moz-transition: opacity 1s; /* Firefox 4 */
+		-webkit-transition: opacity 1s; /* Safari and Chrome */
+		-o-transition: opacity 1s; /* Opera */
+		}
+	
+	#jessica .e {
+		/* thought bubble */
+		background: url('http://c15117992.r92.cf2.rackcdn.com/23e.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 104;
+		opacity: 0;
+		transition: opacity 2s;
+		-moz-transition: opacity 2s; /* Firefox 4 */
+		-webkit-transition: opacity 2s; /* Safari and Chrome */
+		-o-transition: opacity 2s; /* Opera */ 
+		}
+	
+	#jessica a.credit {
+		color: black;
+		}
+		
+#the-ring {																/* 24 text */
+	
+	}
+	
+#broke {																/* 25 Jennifer Daniel */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/25a.png') 50% 0 no-repeat fixed;
+	background-color: black;
+	}
+	
+	#broke .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/25b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#broke .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/25c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+	
+	#broke .caption {
+		width: 1000px;
+		margin: 50px 0 0;
+		z-index: 100;
+		}
+		
+#the-plan {																/* 26 text */
+	
+	}
+	
+#it-happened {															/* 27 Jessica Hische */
+	background: none;
+	}
+	
+	#it-happened .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/27b.png') center no-repeat;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+#set-up {																/* 28 text */
+	
+	}
+	
+#park {																	/* 29 Gina + Matt */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/29a.jpg') 50% 0 no-repeat fixed;
+	background-color: #FFF;
+	}
+
+	#park .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/29b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#park .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/29c.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 102;
+		}
+	
+	#park .d {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/29d.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 103;
+		}
+		
+#yes {																	/* 30 text */
+	
+	}
+	
+#restaurant {															/* 31 James Gulliver Hancock */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/31a.jpg') 50% 0 no-repeat fixed;
+	background-color: #e3d4ae;
+	}
+	
+	#restaurant .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/31b.png') 50% 0 no-repeat fixed;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+		
+	#restaurant a.credit {
+		color: black;
+		}
+		
+#waiting-inside {														/* 32 text */
+	
+	}
+	
+#friends {																/* 33 Jillian Tamaki */
+	background: url('http://c15117992.r92.cf2.rackcdn.com/33a.jpg') 50% 0 no-repeat fixed;
+	background-color: black;
+	}
+
+#invitation {
+	background: url('http://c15117992.r92.cf2.rackcdn.com/lines.png') 50% repeat-y;
+	}
+	
+	#invitation .b {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/34b.png') 50% no-repeat;
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		}
+	
+	#invitation .c {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/34c.png') 50% 0 no-repeat;
+		height: 671px;
+		width: 100%;
+		margin-top: 600px;
+		position: absolute;
+		z-index: 102;
+		transition: margin 1s;
+		-moz-transition: margin 1s; 
+		-webkit-transition: margin 1s; 
+		-o-transition: margin 1s;
+		}
+		
+		#invitation .c .caption {
+			text-align: center;
+			width: 400px;
+			color: gray;
+			font-size: 18px;
+			border-bottom: 1px solid #bc9d51;
+			margin: 110px 305px;
+			}
+			
+		#password{
+			z-index:999;
+			position:absolute;
+			left: 305px;
+			top: 260px;
+			}
+		
+	#invitation .d {
+		background: url('http://c15117992.r92.cf2.rackcdn.com/34d.png') no-repeat center top;
+		width: 100%;
+		position: absolute;
+		z-index: 103;
+		}
+	
+#invite-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	}
+
+
+/* ==|== Jessica Type changes ========================================
+   ========================================================================== */
+
+
+
+#invitation .c p{
+	color:black;
+}
+
+#invite-ornament{
+	position: absolute;
+	left: 403px;
+	top: 400px;
+}
+
+p.pass-inst#donate{
+	width: 400px;
+	top: 295px;
+	margin-left: 304px;
+	position: relative;
+	border-top: none;
+	text-align: left;
+	line-height: 17px;
+	font-size: 11px;
+}
+
+p.pass-inst{
+	font-size:12px;
+	text-align:center;
+	color:black;
+	font-weight:400;
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B';
+	border-top:1px solid #bc9d51; 
+	padding-top: 9px;
+	margin-bottom: 9px;
+}
+
+#password input#field{
+	border: none;
+	background-color: #bc9d51;
+	padding: 10px 15px;
+	outline: none;
+	box-shadow: inset 0px 0px 10px #856b3a;
+	width: 263px;
+	margin-right: 15px;
+}
+
+#password input#s{
+	border:none;
+	background-color:#bc9d51;
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B';
+	font-size:12px;
+	font-weight:700;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	border-radius:15px;
+	padding:10px 15px 10px 17px;
+	box-shadow: inset 0px 0px 20px #856b3a;
+	position:relative;
+	top:-3px;
+}
+
+#password input#s:hover{
+	background-color:#000;
+}
+
+
+
+.rsvp-hint{
+	display:block;
+	text-align:center;
+}
+
+.rsvp-field{
+	border:none;
+	outline:none;
+	background-color:#bc9d51;
+	width:90%;
+	padding:15px 5%;
+}
+
+#ornament1{
+	position:absolute;
+	bottom:20px;
+	left:-275px;
+}
+
+#ornament2{
+	position:absolute;
+	bottom:20px;
+	right:-275px;
+}
+
+#r1{top:60px;}
+
+#r2{top:-30px;}
+#j2{top:33px;}
+
+#r3{top:75px;}
+#j3{top:30px;}
+
+#j4{top:-40px;}
+
+#j7{top:15px;}
+#r7{top:25px;}
+
+#j11{top:50px;}
+#r11{top:20px;}
+
+#r12{top:-30px;}
+
+#j13{top:20px;}
+#r13{top:50px;}
+#r14{top:-30px;}
+#r15{top:30px;}
+#j14{top:20px;}
+#r16{top:-20px;}
+#j16{top:20px;}
+
+#j17{top:20px;}
+#r17{top:60px;}
+
+#j18{top:-30px;}
+
+#r19{top:50px;}
+
+#r20{top:-20px;}
+
+#j21{top:40px;}
+#r21{top:20px;}
+
+#j22{top:-20px;}
+
+#j23{top:20px;}
+#r23{top:50px;}
+
+#j25{top:55px;}
+#r25{top:10px;}
+
+#j28{top:15px;}
+
+#j29{top:10px;}
+#r29{top:30px;}
+
+#r30{top:-30px;}
+
+#r32{top:-20px;}
+#j32{top:20px;}
+
+#r33{top:50px;}
+
+/*-------------------*/
+
+#r1{top:60px;}
+
+#r2{top:0px;}
+#j2{top:63px;}
+
+#r3{top:45px;}
+#j3{top:0px;}
+
+#j4{top:0px;}
+#r4{top:40px;}
+
+#j7{top:0px;}
+#r7{top:10px;}
+
+#j11{top:30px;}
+#r11{top:0px;}
+
+#r12{top:0px;}
+#j12{top:30px;}
+
+#j13{top:0px;}
+#r13{top:30px;}
+
+#r14{top:0px;}
+#j14{top:30px;}
+
+#r15{top:30px;}
+
+#j14{top:20px;}
+
+#r16{top:0px;}
+#j16{top:40px;}
+
+#j17{top:0px;}
+#r17{top:40px;}
+
+#j18{top:0px;}
+#r18{top:30px;}
+
+#r19{top:50px;}
+
+#j20{top:0px;}
+#r20{top:20px;}
+
+#j21{top:20px;}
+#r21{top:0px;}
+
+#j22{top:0px;}
+#r22{top:20px;}
+
+#j23{top:0px;}
+#r23{top:30px;}
+
+#j25{top:45px;}
+#r25{top:0px;}
+
+#j28{top:15px;}
+
+#j29{top:0px;}
+#r29{top:20px;}
+
+#r30{top:0px;}
+#j30{top:30px;}
+
+#r32{top:0px;}
+#j32{top:40px;}
+
+#r33{top:30px;}

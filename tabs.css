@@ -1,0 +1,98 @@
+/* Clipboards */
+
+	#full {
+	margin: 5em 5em;
+	min-height: 400px;
+	}
+	
+	#clipboard {
+		width:17%;
+		float:left;
+		margin: 0.2em !important;
+		min-height: 260px;
+	}
+	
+	#clipboard {
+		margin: 5em 5em;
+	}
+
+	#clipboard {
+		margin: 2em 1em;
+	 	background: #ededed;
+	 	border: 3px solid #ededed;
+	 	-webkit-box-shadow:inset 0px 0px 0px 1px rgba(210, 210, 210, 1), 0px 0px 20px 5px rgba( 0, 0, 0, 0.3);
+	 	-moz-box-shadow:inset 0px 0px 0px 1px rgba( 210, 210, 210, 1), 0px 0px 20px 5px rgba( 0, 0, 0, 0.3);
+	 	box-shadow:inset 0px 0px 0px 1px rgba( 210, 210, 210, 1), 0px 0px 20px 5px rgba( 0, 0, 0, 0.3);
+	 	-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+	#clipboard > div {
+		margin: 2em 1em;
+	 	background: #ededed;
+	 	border: 3px solid #ededed;
+	 	-webkit-box-shadow:inset 0px 0px 0px 1px rgba(210, 210, 210, 1), 0px 0px 20px 5px rgba( 0, 0, 0, 0.3);
+	 	-moz-box-shadow:inset 0px 0px 0px 1px rgba( 210, 210, 210, 1), 0px 0px 20px 5px rgba( 0, 0, 0, 0.3);
+	 	box-shadow:inset 0px 0px 0px 1px rgba( 210, 210, 210, 1), 0px 0px 20px 5px rgba( 0, 0, 0, 0.3);
+	 	-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+	#clipboard .shadow {
+	 	position: absolute;
+	 	-webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+	 	-moz-box-shadow: 0px 0px 20px 1px rgba( 0, 0, 0, 0.3); box-shadow:
+	}
+
+	#clipboard div img {
+		position: absolute; top: -23px;
+		left: 50%; margin-left: -27px;
+	}
+
+	#clipboard div h4 {
+		display: block; color: #622D50;
+		text-transform: uppercase;
+		letter-spacing: 0.2em; margin:
+		2.3em 1em 0.7em; padding-bottom:
+		1em; border-bottom: 1px dashed #adadad;
+	}
+
+	#clipboard div ul {
+		font-size: 0.8em;
+		line-height: 1em;
+		letter-spacing: 0.156em;
+		font-weight: 600;
+		color: #622D50;
+		text-align: left;
+		margin: 0;
+		padding: 0 1em 0.3em;
+	}
+
+	#clipboard div ul li {
+		padding-bottom: 1em;
+}
+	
+	ul.ui-tabs-nav li {
+		width: 237px;
+		height: 173px;
+	}
+	
+	ul .middle-li{
+		background:  url(http://studioissa.com/wp-content/themes/issa-studio/images/designicon-si.png) no-repeat;
+	}
+	
+	ul .first-li {
+		background: url(http://studioissa.com/wp-content/themes/issa-studio/images/marketingicon-si.png) no-repeat !important;
+	}
+
+	ul .last-li {
+		background:  url(http://studioissa.com/wp-content/themes/issa-studio/images/artdirectionicon-si.png) no-repeat !important;
+	}
+	
+	ul.ui-tabs-nav li a {
+		text-align:center;
+		margin-left:auto;
+		margin-right: auto;
+	}
